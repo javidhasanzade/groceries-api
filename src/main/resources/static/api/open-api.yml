@@ -1,0 +1,15 @@
+openapi: 3.0.1
+info:
+  title: Grocery Shopping RESTful API v1
+  description: Groceries shopping api
+  license:
+    name: MIT Licence
+    url: https://github.com/javidhasanzade/groceries-api/
+  version: 1.0.0
+servers:
+  - url: http://localhost:9000/
+    description: DEVELOPMENT
+  - url: https://javidhasanzade.com
+    description: PRODUCTION
+security:
+  - BearerAuth: [ ]
